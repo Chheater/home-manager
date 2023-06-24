@@ -34,7 +34,10 @@
 	pkgs.acpi
 	pkgs.pandoc
 	pkgs.topgrade
-	pkgs.cosign 
+	pkgs.cosign
+	pkgs.rsync
+	pkgs.grsync
+	 
     # # It is sometimes useful to fine-tune packages, for example, by applying
     # # overrides. You can do that directly here, just don't forget the
     # # parentheses. Maybe you want to install Nerd Fonts with a limited number of
@@ -75,7 +78,8 @@
   #
   # if you don't want to manage your shell through Home Manager.
   home.sessionVariables = {
-    # EDITOR = "emacs";
+     EDITOR = "micro";
+     XDG_DATA_DIRS="$HOME/.nix-profile/share:/nix/var/nix/profiles/default/share:$XDG_DATA_DIRS";
   };
 
   programs.bash = {
@@ -103,10 +107,8 @@
   		"gdrive" = "rclone copy $HOME/Documents/ gcrypt:";
   		"resync" = "rclone bisync $HOME/Documents/Classroom/ one:Classroom/ --resync";
   		"sync" = "rclone sync $HOME/Documents/ gcrypt:";
-  	};
-  	#export = {
-  		
-  	#};
+	};
+
   };
   # Let Home Manager install and manage itself.
   programs.home-manager.enable = true;

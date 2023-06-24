@@ -85,6 +85,11 @@
   programs.bash = {
   	enable = true;
   	shellAliases = {
+  		"home" = "micro ~/.config/home-manager/home.nix";
+  		"home-in" = "home-manager switch";
+  		"home-up" = "home-manager switch";
+
+  		# use lsd as ls
   		"ls" = "lsd";
   		"la" = "lsd -a";
   		"ll" = "lsd -l";
@@ -112,7 +117,8 @@
   };
   # Let Home Manager install and manage itself.
   programs.home-manager.enable = true;
-
+  # programs.home-manager.autoUpdate.enable = true;
+  
   programs.starship = {
   	enable = true;
   	enableBashIntegration = true;

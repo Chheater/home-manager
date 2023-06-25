@@ -38,7 +38,10 @@
 	pkgs.pandoc
 	pkgs.topgrade
 	pkgs.cosign
-
+    pkgs.btop
+    pkgs.gping
+    pkgs.glances
+    
 	# Backup
     pkgs.rclone-browser
 	pkgs.rclone

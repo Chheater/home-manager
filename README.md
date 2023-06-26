@@ -19,3 +19,5 @@ nix-channel --update`
 `nix-shell '<home-manager>' -A install`
 
 4. `git clone https://github.com/Chheater/home-manager.git` into the .config file.
+
+5. Run `home-manager switch`

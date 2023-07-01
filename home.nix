@@ -1,4 +1,4 @@
-{ config, pkgs, ... }:
+{ config, pkgs, nixpkgs, ... }:
 
 {
   # Home Manager needs a bit of information about you and the paths it should
@@ -6,6 +6,9 @@
   home.username = "chris";
   home.homeDirectory = "/home/chris";
 
+  nixpkgs.config = {
+    allowUnfree = true;
+  };
   # This value determines the Home Manager release that your configuration is
   # compatible with. This helps avoid breakage when a new Home Manager release
   # introduces backwards incompatible changes.
@@ -33,7 +36,6 @@
     pkgs.ncdu
 	pkgs.nodePackages_latest.gramma   
 	pkgs.yt-dlp
-	pkgs.terminus-nerdfont
 	pkgs.acpi
 	pkgs.pandoc
 	pkgs.topgrade
@@ -41,6 +43,12 @@
     pkgs.btop
     pkgs.gping
     pkgs.glances
+
+    # System fonts
+    
+    pkgs.terminus-nerdfont
+    #pkgs.corefonts
+    #pkgs.vistafonts
     
 	# Backup
     pkgs.rclone-browser
@@ -49,10 +57,17 @@
 	pkgs.grsync
 
 	# Extensions for Gnome
-    pkgs.gnomeExtensions.transparent-top-bar-adjustable-transparency
+    pkgs.gnomeExtensions.blur-my-shell
 	pkgs.gnomeExtensions.space-bar
 	pkgs.gnomeExtensions.weather-oclock 
+    pkgs.gnomeExtensions.user-themes
+    pkgs.gnomeExtensions.lock-keys
+    pkgs.gnomeExtensions.alphabetical-app-grid
+    pkgs.gnomeExtensions.just-perfection
 
+    pkgs.tela-circle-icon-theme
+    pkgs.fluent-icon-theme
+    pkgs.bibata-cursors
     # # It is sometimes useful to fine-tune packages, for example, by applying
     # # overrides. You can do that directly here, just don't forget the
     # # parentheses. Maybe you want to install Nerd Fonts with a limited number of
@@ -95,6 +110,7 @@
   home.sessionVariables = {
      EDITOR = "micro";
      XDG_DATA_DIRS="$HOME/.nix-profile/share:/nix/var/nix/profiles/default/share:$XDG_DATA_DIRS";
+     NIXPKGS_ALLOW_UNFREE=1;
   };
 
   programs.bash = {
@@ -140,5 +156,9 @@
   };
   programs.fish = {
   	enable = true;
+  };
+  programs.zoxide = {
+  	enable = true;
+  	enableBashIntegration = true;
   };
 }

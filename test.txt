@@ -7,6 +7,7 @@ com.github.rafostar.Clapper
 com.github.tchx84.Flatseal
 com.github.z.Cumulonimbus
 com.gitlab.newsflash
+com.makemkv.MakeMKV
 com.mattjakeman.ExtensionManager
 com.rafaelmardojai.Blanket
 com.raggesilver.BlackBox
@@ -14,6 +15,7 @@ com.system76.Popsicle
 com.usebottles.bottles
 com.vysp3r.ProtonPlus
 de.haeckerfelix.Fragments
+fr.handbrake.ghb
 io.bassi.Amberol
 io.github.Bavarder.Bavarder
 io.github.Qalculate
@@ -41,4 +43,3 @@ org.gnome.clocks
 org.gnome.font-viewer
 org.gustavoperedo.FontDownloader
 org.libreoffice.LibreOffice
-org.mozilla.firefox

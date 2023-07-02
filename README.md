@@ -21,3 +21,10 @@ nix-channel --update`
 4. `git clone https://github.com/Chheater/home-manager.git` into the .config file.
 
 5. Run `home-manager switch`
+
+#### Install flatpak
+
+1. Enable user flatpak `flatpak remote-add --if-not-exists flathub https://dl.flathub.org/repo/flathub.flatpakrepo
+    --user`
+
+1. Run `flatpak install --user -y $(cat test.txt)`

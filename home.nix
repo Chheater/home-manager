@@ -64,7 +64,9 @@
     pkgs.gnomeExtensions.lock-keys
     pkgs.gnomeExtensions.alphabetical-app-grid
     pkgs.gnomeExtensions.just-perfection
-
+    pkgs.gnomeExtensions.dash-to-panel
+    pkgs.gnomeExtensions.arcmenu
+    
     pkgs.tela-circle-icon-theme
     pkgs.fluent-icon-theme
     pkgs.bibata-cursors

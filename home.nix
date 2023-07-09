@@ -66,10 +66,12 @@
     pkgs.gnomeExtensions.just-perfection
     pkgs.gnomeExtensions.dash-to-panel
     pkgs.gnomeExtensions.arcmenu
-    
+    pkgs.gnomeExtensions.caffeine
+        
     pkgs.tela-circle-icon-theme
     pkgs.fluent-icon-theme
     pkgs.bibata-cursors
+    pkgs.yaru-theme
     # # It is sometimes useful to fine-tune packages, for example, by applying
     # # overrides. You can do that directly here, just don't forget the
     # # parentheses. Maybe you want to install Nerd Fonts with a limited number of
@@ -145,6 +147,9 @@
   		"gdrive" = "rclone copy $HOME/Documents/ gcrypt:";
   		"resync" = "rclone bisync $HOME/Documents/Classroom/ one:Classroom/ --resync";
   		"sync" = "rclone sync $HOME/Documents/ gcrypt:";
+
+  		#flatpak backup
+  		"flatbk" = "flatpak list --app --columns=application > ~/.config/home-manager/test.txt";
 	};
 
   };

@@ -2,10 +2,9 @@ app.drey.Dialect
 app.drey.Warp
 com.brave.Browser
 com.github.GradienceTeam.Gradience
-com.github.Murmele.Gittyup
+com.github.marhkb.Pods
 com.github.rafostar.Clapper
 com.github.tchx84.Flatseal
-com.github.z.Cumulonimbus
 com.gitlab.newsflash
 com.makemkv.MakeMKV
 com.mattjakeman.ExtensionManager
@@ -19,11 +18,15 @@ fr.handbrake.ghb
 io.bassi.Amberol
 io.github.Bavarder.Bavarder
 io.github.Qalculate
+io.github.hakandundar34coding.system-monitoring-center
+io.github.sharkwouter.Minigalaxy
 io.github.shiftey.Desktop
 io.github.wereturtle.ghostwriter
+io.gitlab.theevilskeleton.Upscaler
 net.cozic.joplin_desktop
 org.fedoraproject.MediaWriter
 org.ferdium.Ferdium
+org.flatpak.Builder
 org.gnome.Boxes
 org.gnome.Calculator
 org.gnome.Calendar

@@ -57,16 +57,16 @@
 	pkgs.grsync
 
 	# Extensions for Gnome
-    pkgs.gnomeExtensions.blur-my-shell
-	pkgs.gnomeExtensions.space-bar
-	pkgs.gnomeExtensions.weather-oclock 
-    pkgs.gnomeExtensions.user-themes
-    pkgs.gnomeExtensions.lock-keys
-    pkgs.gnomeExtensions.alphabetical-app-grid
-    pkgs.gnomeExtensions.just-perfection
-    pkgs.gnomeExtensions.dash-to-panel
-    pkgs.gnomeExtensions.arcmenu
-    pkgs.gnomeExtensions.caffeine
+    #pkgs.gnomeExtensions.blur-my-shell
+	#pkgs.gnomeExtensions.space-bar
+	#pkgs.gnomeExtensions.weather-oclock 
+    #pkgs.gnomeExtensions.user-themes
+    #pkgs.gnomeExtensions.lock-keys
+    #pkgs.gnomeExtensions.alphabetical-app-grid
+    #pkgs.gnomeExtensions.just-perfection
+    #pkgs.gnomeExtensions.dash-to-panel
+    #pkgs.gnomeExtensions.arcmenu
+    #pkgs.gnomeExtensions.caffeine
         
     pkgs.tela-circle-icon-theme
     pkgs.fluent-icon-theme

@@ -1,5 +1,4 @@
 app.drey.Dialect
-app.drey.Warp
 com.brave.Browser
 com.github.GradienceTeam.Gradience
 com.github.marhkb.Pods
@@ -19,8 +18,10 @@ io.bassi.Amberol
 io.github.Bavarder.Bavarder
 io.github.Qalculate
 io.github.hakandundar34coding.system-monitoring-center
+io.github.jacalz.rymdport
 io.github.sharkwouter.Minigalaxy
 io.github.shiftey.Desktop
+io.github.vikdevelop.SaveDesktop
 io.github.wereturtle.ghostwriter
 io.gitlab.theevilskeleton.Upscaler
 net.cozic.joplin_desktop
@@ -46,3 +47,4 @@ org.gnome.clocks
 org.gnome.font-viewer
 org.gustavoperedo.FontDownloader
 org.libreoffice.LibreOffice
+org.onlyoffice.desktopeditors

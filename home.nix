@@ -123,7 +123,7 @@
   		"home" = "micro ~/.config/home-manager/home.nix";
   		"home-in" = "home-manager switch";
   		"home-up" = "home-manager switch";
-
+        "home-clean" = "home-manager expire-generations -10days";
   		# use lsd as ls
   		"ls" = "lsd";
   		"la" = "lsd -a";

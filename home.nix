@@ -43,7 +43,7 @@
     pkgs.btop
     pkgs.gping
     pkgs.glances
-
+    pkgs.afetch
     # System fonts
     
     pkgs.terminus-nerdfont
@@ -119,6 +119,7 @@
 
   programs.bash = {
   	enable = true;
+  	bashrcExtra = "afetch";
   	shellAliases = {
   		"home" = "micro ~/.config/home-manager/home.nix";
   		"home-in" = "home-manager switch";

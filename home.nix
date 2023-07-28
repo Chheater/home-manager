@@ -72,6 +72,7 @@
     pkgs.fluent-icon-theme
     pkgs.bibata-cursors
     pkgs.yaru-theme
+    pkgs.ventoy
     # pkgs.phinger-cursors
     # # It is sometimes useful to fine-tune packages, for example, by applying
     # # overrides. You can do that directly here, just don't forget the
@@ -145,10 +146,10 @@
   		"ytv-best" = "yt-dlp -f bestvideo+bestaudio ";
 
   		#rclone alias
-  		"one" = "rclone bisync $HOME/Documents/Classroom/ one:Classroom";
-  		"gdrive" = "rclone copy $HOME/Documents/ gcrypt:";
-  		"resync" = "rclone bisync $HOME/Documents/Classroom/ one:Classroom/ --resync";
-  		"sync" = "rclone sync $HOME/Documents/ gcrypt:";
+  		"one" = "rclone bisync $HOME/Documents/Classroom/ one:Classroom -v";
+  		"gdrive" = "rclone copy $HOME/Documents/ gcrypt: -v";
+  		"resync" = "rclone bisync $HOME/Documents/Classroom/ one:Classroom/ --resync -v";
+  		"sync" = "rclone sync $HOME/Documents/ gcrypt: -v";
 
   		#flatpak backup
   		"flatbk" = "flatpak list --app --columns=application > ~/.config/home-manager/test.txt";

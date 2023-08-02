@@ -2,7 +2,6 @@ app.drey.Dialect
 com.brave.Browser
 com.github.GradienceTeam.Gradience
 com.github.k4zmu2a.spacecadetpinball
-com.github.micahflee.torbrowser-launcher
 com.github.rafostar.Clapper
 com.github.tchx84.Flatseal
 com.gitlab.newsflash
@@ -19,6 +18,7 @@ io.bassi.Amberol
 io.github.Bavarder.Bavarder
 io.github.Qalculate
 io.github.anirbandey1.ChatbotClient
+io.github.giantpinkrobots.flatsweep
 io.github.hakandundar34coding.system-monitoring-center
 io.github.jacalz.rymdport
 io.github.shiftey.Desktop

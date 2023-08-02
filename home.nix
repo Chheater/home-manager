@@ -55,7 +55,7 @@
 	pkgs.rclone
 	pkgs.rsync
 	pkgs.grsync
-
+	pkgs.blackbox-terminal
 	# Extensions for Gnome
     #pkgs.gnomeExtensions.blur-my-shell
 	#pkgs.gnomeExtensions.space-bar
@@ -118,6 +118,7 @@
      EDITOR = "micro";
      XDG_DATA_DIRS="$HOME/.nix-profile/share:/nix/var/nix/profiles/default/share:$XDG_DATA_DIRS";
      NIXPKGS_ALLOW_UNFREE=1;
+     TERMINAL = "blackbox";
   };
 
   programs.bash = {

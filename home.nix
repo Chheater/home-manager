@@ -166,9 +166,7 @@
   	enable = true;
   	enableBashIntegration = true;
   };
-  programs.fish = {
-  	enable = true;
-  };
+
   programs.zoxide = {
   	enable = true;
   	enableBashIntegration = true;

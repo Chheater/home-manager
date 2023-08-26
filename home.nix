@@ -29,7 +29,7 @@
     pkgs.micro
     pkgs.kjv
 	pkgs.wl-clipboard
-	
+	pkgs.ffmpeg
     # command line tools
 	pkgs.starship
     pkgs.lsd
@@ -43,7 +43,7 @@
     pkgs.btop
     pkgs.gping
     pkgs.glances
-    pkgs.afetch
+    pkgs.pfetch
     # System fonts
     
     pkgs.terminus-nerdfont
@@ -74,6 +74,7 @@
     pkgs.yaru-theme
     pkgs.ventoy
     pkgs.magic-wormhole-rs
+    pkgs.adw-gtk3
     # pkgs.phinger-cursors
     # # It is sometimes useful to fine-tune packages, for example, by applying
     # # overrides. You can do that directly here, just don't forget the
@@ -123,7 +124,7 @@
 
   programs.bash = {
   	enable = true;
-  	bashrcExtra = "afetch";
+  	bashrcExtra = "pfetch";
   	shellAliases = {
   		"home" = "micro ~/.config/home-manager/home.nix";
   		"home-in" = "home-manager switch";
@@ -155,6 +156,10 @@
 
   		#flatpak backup
   		"flatbk" = "flatpak list --app --columns=application > ~/.config/home-manager/test.txt";
+
+  		#systemctl commands
+  		"reboot" = "systemctl reboot";
+  		"poweroff" = "systemctl poweroff";
 	};
 
   };

@@ -30,20 +30,25 @@
     pkgs.kjv
 	pkgs.wl-clipboard
 	pkgs.ffmpeg
+	pkgs.onedrive
     # command line tools
 	pkgs.starship
     pkgs.lsd
     pkgs.ncdu
-	pkgs.nodePackages_latest.gramma   
+    pkgs.nnn
+    pkgs.trashy
+    
+	#pkgs.nodePackages_latest.gramma   
 	pkgs.yt-dlp
 	pkgs.acpi
 	pkgs.pandoc
 	pkgs.topgrade
-	pkgs.cosign
+	#pkgs.cosign
     pkgs.btop
     pkgs.gping
     pkgs.glances
     pkgs.pfetch
+    pkgs.variety
     # System fonts
     
     pkgs.terminus-nerdfont
@@ -56,6 +61,7 @@
 	pkgs.rsync
 	pkgs.grsync
 	pkgs.blackbox-terminal
+
 	# Extensions for Gnome
     #pkgs.gnomeExtensions.blur-my-shell
 	#pkgs.gnomeExtensions.space-bar
@@ -64,15 +70,15 @@
     #pkgs.gnomeExtensions.lock-keys
     #pkgs.gnomeExtensions.alphabetical-app-grid
     #pkgs.gnomeExtensions.just-perfection
-    #pkgs.gnomeExtensions.dash-to-panel
+    pkgs.gnomeExtensions.pano
     #pkgs.gnomeExtensions.arcmenu
     #pkgs.gnomeExtensions.caffeine
         
     pkgs.tela-circle-icon-theme
     pkgs.fluent-icon-theme
-    pkgs.bibata-cursors
-    pkgs.yaru-theme
-    pkgs.ventoy
+    #pkgs.bibata-cursors
+    #pkgs.yaru-theme
+    #pkgs.ventoy
     pkgs.magic-wormhole-rs
     pkgs.adw-gtk3
     # pkgs.phinger-cursors
@@ -167,11 +173,16 @@
   programs.home-manager.enable = true;
   # programs.home-manager.autoUpdate.enable = true;
   
-  programs.starship = {
+  #programs.starship = {
+  	#enable = true;
+  	#enableBashIntegration = true;
+  #};
+  programs.oh-my-posh = {
   	enable = true;
   	enableBashIntegration = true;
+  	useTheme = "material";
   };
-
+  
   programs.zoxide = {
   	enable = true;
   	enableBashIntegration = true;

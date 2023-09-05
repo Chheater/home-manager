@@ -30,8 +30,8 @@
     pkgs.kjv
 	pkgs.wl-clipboard
 	pkgs.ffmpeg
-	pkgs.onedrive
-    # command line tools
+	pkgs.syncthing
+	# command line tools
 	pkgs.starship
     pkgs.lsd
     pkgs.ncdu

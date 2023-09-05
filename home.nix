@@ -187,4 +187,6 @@
   	enable = true;
   	enableBashIntegration = true;
   };
+  
+  services.syncthing.enable = true;
 }

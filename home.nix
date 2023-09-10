@@ -30,7 +30,6 @@
     pkgs.kjv
 	pkgs.wl-clipboard
 	pkgs.ffmpeg
-	pkgs.syncthing
 	# command line tools
 	pkgs.starship
     pkgs.lsd

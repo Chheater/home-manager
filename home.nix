@@ -154,7 +154,8 @@
   		"ytv-best" = "yt-dlp -f bestvideo+bestaudio ";
 
   		#rclone alias
-  		"one" = "rclone bisync $HOME/Documents/Classroom/ one:Classroom -v";
+  		"comp" = "rclone copy $HOME/Documents/Classroom/ one:Classroom -v";
+  		"one" = "rclone copy one:Classroom/ $HOME/Documents/Classroom/ -v";
   		"gdrive" = "rclone copy $HOME/Documents/ gcrypt: -v";
   		"resync" = "rclone bisync $HOME/Documents/Classroom/ one:Classroom/ --resync -v";
   		"sync" = "rclone sync $HOME/Documents/ gcrypt: -v";
@@ -186,6 +187,4 @@
   	enable = true;
   	enableBashIntegration = true;
   };
-  
-  services.syncthing.enable = true;
 }

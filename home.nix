@@ -30,13 +30,15 @@
     pkgs.kjv
 	pkgs.wl-clipboard
 	pkgs.ffmpeg
+	pkgs.scrcpy
 	# command line tools
 	pkgs.starship
     pkgs.lsd
     pkgs.ncdu
     pkgs.nnn
     pkgs.trashy
-    
+    pkgs.taskwarrior
+    pkgs.taskwarrior-tui
 	#pkgs.nodePackages_latest.gramma   
 	pkgs.yt-dlp
 	pkgs.acpi

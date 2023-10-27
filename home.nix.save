@@ -26,7 +26,7 @@
     # pkgs.hello
 
 	# Command line applications
-    pkgs.micro
+    # pkgs.micro
     pkgs.kjv
 	pkgs.wl-clipboard
 	pkgs.ffmpeg
@@ -37,8 +37,6 @@
     pkgs.ncdu
     pkgs.nnn
     pkgs.trashy
-    pkgs.taskwarrior
-    pkgs.taskwarrior-tui
 	#pkgs.nodePackages_latest.gramma   
 	pkgs.yt-dlp
 	pkgs.acpi
@@ -50,7 +48,6 @@
     pkgs.glances
     pkgs.pfetch
     pkgs.variety
-    pkgs.localsend
     # System fonts
     
     pkgs.terminus-nerdfont

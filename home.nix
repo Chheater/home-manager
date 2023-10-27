@@ -31,6 +31,7 @@
 	pkgs.wl-clipboard
 	pkgs.ffmpeg
 	pkgs.scrcpy
+	#pkgs.flutter
 	# command line tools
 	pkgs.starship
     pkgs.lsd
@@ -50,7 +51,7 @@
     pkgs.glances
     pkgs.pfetch
     pkgs.variety
-    pkgs.localsend
+    #pkgs.localsend
     # System fonts
     
     pkgs.terminus-nerdfont

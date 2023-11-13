@@ -66,17 +66,18 @@
 	pkgs.blackbox-terminal
 
 	# Extensions for Gnome
-    #pkgs.gnomeExtensions.blur-my-shell
-	#pkgs.gnomeExtensions.space-bar
+    pkgs.gnomeExtensions.blur-my-shell
+	pkgs.gnomeExtensions.space-bar
 	#pkgs.gnomeExtensions.weather-oclock 
-    #pkgs.gnomeExtensions.user-themes
-    #pkgs.gnomeExtensions.lock-keys
-    #pkgs.gnomeExtensions.alphabetical-app-grid
-    #pkgs.gnomeExtensions.just-perfection
+    pkgs.gnomeExtensions.user-themes
+    pkgs.gnomeExtensions.lock-keys
+    pkgs.gnomeExtensions.alphabetical-app-grid
+    pkgs.gnomeExtensions.just-perfection
     pkgs.gnomeExtensions.pano
     #pkgs.gnomeExtensions.arcmenu
-    #pkgs.gnomeExtensions.caffeine
-        
+    pkgs.gnomeExtensions.caffeine
+    pkgs.gnomeExtensions.rounded-window-corners
+         
     pkgs.tela-circle-icon-theme
     pkgs.fluent-icon-theme
     #pkgs.bibata-cursors
